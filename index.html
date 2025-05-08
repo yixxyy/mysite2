@@ -126,6 +126,59 @@
         <div class="of-sub">Not everything, but enough to make you want more.</div>
       </a>
     </div>
+<style>
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .of-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ✅ 水平置中 */
+    justify-content: center; /* ✅ 垂直置中 */
+    padding: 15px;
+    background: #1e1e1e;
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .of-button:hover {
+    background: #333;
+    transform: scale(1.02);
+  }
+
+  .of-sub {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 5px;
+    text-align: center;
+  }
+</style>
+
+<div class="buttons">
+  <a class="of-button" href="https://example.com/of-premium" target="_blank">
+    OF - Want more? The best is here! 🔥
+    <div class="of-sub">This is where the real experience begins.</div>
+  </a>
+  <a class="of-button" href="https://example.com/of-free" target="_blank">
+    OF - Free to follow, stay for the heat!
+    <div class="of-sub">Not everything, but enough to make you want more.</div>
+  </a>
+</div>
+
   </div>
 
   <!-- 🔁 輪播功能 -->
